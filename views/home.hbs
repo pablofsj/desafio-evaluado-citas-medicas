@@ -1,0 +1,15 @@
+<ul>
+    <h2>Hombres</h2>
+        {{#each usersMale}}
+        <li>
+            Nombre: {{this.first}} - Apellido: {{this.last}} - ID: {{this.id}} - Timestamp: {{this.timestamp}}               
+        </li>
+        {{/each}}
+
+    <h2>Mujeres</h2>
+        {{#each usersFemale}}
+        <li>
+            Nombre: {{this.first}} - Apellido: {{this.last}} - ID: {{this.id}} - Timestamp: {{this.timestamp}}               
+        </li>
+        {{/each}}
+</ul>
